@@ -1,5 +1,11 @@
 # Transcendance
 
+## SUJET
+
+Ce projet consiste à créer un site web pour participer à une compétition du célèbre jeu Pong !
+
+Fait a 4, nous avons tous pris en main differents aspects du projet afin de le mener jusqu'au bout.
+
 ## DEV USE
 
 Pour un accès classique : **make**
