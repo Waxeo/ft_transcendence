@@ -6,58 +6,22 @@ Ce projet consiste à créer un site web pour participer à une compétition
 
 Fait a 4, nous avons tous pris en main differents aspects du projet afin de le mener jusqu'au bout.
 
-## DEV USE
+## LANGAGE
 
-Pour un accès classique : **make**
+Le projet a été fait principalement en Django et JS pour le back et en three.js, html et css pour le front.
+Cela avec l'utilisaiton de Bootstrap pour parfaire le front.
 
-Pour un accès avec visualisation de bdd : **make dev**
-
-Accès bdd avec make dev : **http://localhost:5000**
-
-Login pgadmin : **admin@admin.com**
-
-MDP admin : **root**
-
-Acceder a la page d'accueil via : **https://localhost:3000**
-
-Nettoyer tous les dockers : **./clear.sh**
-
-### PGADMIN4
-
-Pgadmin est une interface graphique pour postgresql. Vous pourrez donc avoir une vision generale de votre db sans vous connecter au docker de la db et s'emmerder avec des commandes SQL
-
-Pour se connecter : 
-- **login** = admin@admin.com
-- **mdp** = root
-
-Une fois connecter derouler l'arbre de **Servers**
-
-Si il n'y que **Database** qui apparait (ce qui sera surement le cas), faites un clic droit sur **Servers** -> **Nouveau** -> **Serveur**
-
-Une page de config s'ouvre. Dans **General** -> **Nom**, choisissez un nom.
-
-Aller dans **Connexion** : 
-- **Nom d'hote** = db
-- **Port** = 5432
-- **Nom utilisateur** = theuser
-- **Mot de passe** = abc
-
-Vous avez maintenant acces a la db sous le nom que vous lui avez donne. C'est un beau bordel alors on va surtout s'interresser au Tables de le db.
-
-Pour y acceder : **Base de donnees** -> **mydb** -> **Schemas** -> **public** -> **Tables**
-
-Tous les modeles que nous allons creer via Django seront visible de la.
+Nous avons pris beaucoup de plaisir a découvrir ces nouveaux langages en quelques jours pour avoir ce rendu, certes améliorable, mais fini en 1 gros mois de travail !
 
 ## MODULE LIST
-
 ### MAJEUR
 
 - [x] Backend Django
-- [x] Gestion utilisateur standard (WIP)
+- [x] Gestion utilisateur standard
 - [x] Authentification a distance
-- [x] 2FA (TODO)
-- [x] 3D
-- [x] BOT 
+- [x] 2FA 
+- [x] jeu 3D
+- [x] IA Adversaire 
 
 ### MINEUR
 
